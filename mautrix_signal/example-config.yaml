@@ -81,6 +81,9 @@ bridge:
     # available variable in displayname_preference. The variables in displayname_preference
     # can also be used here directly.
     displayname_template: "{displayname} (Signal)"
+    # Groupname template for Signal groups.
+    # {} is replaced with the name of the group
+    groupname_template: "{} (Signal)"
     # Whether or not contact list displaynames should be used.
     # Possible values: disallow, allow, prefer
     #
